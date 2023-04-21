@@ -1,0 +1,79 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #292828c4;
+    font-family: "Open Sans";
+    color: aliceblue;
+}
+
+.navegador {
+    text-align: right;
+    font-family: "Open Sans";
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Open Sans";
+    color: aliceblue;
+    font-size: 50px;
+    text-shadow: 1px;
+
+}
+
+h2 {
+    font-family: "Open Sans";
+    color: aliceblue;
+}
+
+.parrafo-title {
+    font-family: "Open Sans";
+    color: aliceblue;
+}
+
+.caja {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(136, 25, 25);
+    border-radius: 1em;
+}
+
+.b-color {
+    background-color: rgb(30, 255, 0);
+}
+
+.b-image {
+    background-image: url(https://yt3.googleusercontent.com/2YgZn2FlRzEgPbvQBvviQcTcW5qBD5nfomonhHIOlm67OP3OUYBUnOUfqwh0LUgvw6NTt0_1fw=s900-c-k-c0x00ffffff-no-rj);
+    background-position: center;
+    background-size: cover;
+}
+
+.b-repeat {
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_673904-MLA53290823763_012023-V.jpg);
+    background-repeat: repeat;
+}
+
+.offset-xy {
+    box-shadow: 10px 10px;
+}
+
+.blur-radius {
+    box-shadow: 10px 10px 15px;
+}
+
+.spread-radius {
+    box-shadow: 10px 10px 15px 15px;
+}
+
+.color-sombra {
+    box-shadow: 10px 10px 15px 15px rgb(0, 160, 200);
+}
+
+.sombra-interna {
+    box-shadow: inset 10px 10px 15px 15px rgb(0, 160, 200);
+}
